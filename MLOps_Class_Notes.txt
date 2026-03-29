@@ -573,28 +573,3 @@ Next :::
 	GIT VCS 
 	
 	DVC 
-
-	
-
-				
-	
-				
-				
-					
-					
-				
-				
-		
-
-		
-		
-	
-
-
-
-
-
-
-
-
-	- How to Implement MLOps ???
