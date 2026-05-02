@@ -3083,3 +3083,153 @@ Next:::
 	- Monitoring 
 			
 	- AWS SageMaker-ai		
+
+
+
+#######################
+Day-10 | 2nd May. 2026
+#######################		
+	
+	
+	- Monitoring 
+	
+	
+		- Kubeflow 
+	
+		- HELM --> Prometheus & Grafana 
+	
+
+
+	- Monitoring ==> Used to ensure business Continuity. 
+	
+		- Infra-Structure Monitoring
+		
+			- Prometheus/Grafana 		==> Deployed on Kubernetes Cluster using HELM.
+			- Dynatrace/AWS Cloud watch/Splunk/Nagios
+			
+				- Monitoring Metrics 
+				
+					--> CPU / Memory
+					
+			--> Architecture of Monitoring Tool:::
+					
+		
+		- Application ML Model Monitoring 
+		
+			- MLFlow
+			
+			- AppDynamics/DataDog
+			
+			- Kubernetes Dashboard 
+			
+				- Kubeflow 
+				
+	
+	- Setup Monitoring Tools :
+	
+		- Prometheus/Grafana using HELM 
+		
+			- Helm --> Is a Package Manager for Kubernetes 
+			
+			1. Install Helm on Kubernetes Master 
+			
+			2. Using Helm Install Prometheus/Grafana
+			
+			
+			
+			apt install 
+			
+			yum 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	- MLOps on Cloud -> Overview of AWS SageMaker-AI 
+	
+	- Overview of AWS SageMaker-ai :::
+	
+		- AWS-Sagemaker - Is an unified Platform to perform end-to-end MLOps Workflow 
+		
+			- AWS-SageMaker-ai
+			
+				- used by the MLOps Admin/Engg. to automate end-to-end MLOps Workflow 
+	
+	Work with AWS SageMaker-ai :::
+	
+		-> Merits :
+		
+			-> unified Platform
+			
+			-> Simplify most the the works for DS/ML_Engg/MLOps
+			
+			-> Studio - IDE -> Create/Customize Model
+			
+			-> canvas/Studio/ -> Monitoring
+			
+			-> Have less learn curve -> for any ML_Engg/DS. 
+			
+		-> demerits :
+		
+			-> Cost 
+			
+			-> Vendor Dependency	
+		
+		
+		- Create AWS Sagemaker-AI 
+		
+			- Domain 
+			
+			- User Profile --> IAM User Profile -> IAM User Group -> RBAC 
+				- Role Based Access Control 			
+				
+				
+			- RBAC --> Role Based Access Control 		--> IAM Level 
+			
+			- ABAC --> Attribute Based Access Control 	--> Sagemaker Level
+				
+				
+			- AWS Cli/IAC - CFT to Create AWS SageMaker-ai Projects -> Domain/user/studio
+				- VPC/Subnet/IGW 
+				- AWS Sagemaker Studio 
+					- Develop & Deploy ML Models 
+	
+	
+	- Working with Kubeflow ::::
+	
+		- 
+		
+		
+		- DVC Pipelines :
+		
+			- Data Validation --> Process Data --> Train -> MLflow --> Upload *.pkl to S3			==> Dev/Build 
+			
+		- Kubeflow :
+		
+			- Deploy/Execute the Model to Kubernetes
+			
+			- Kubeflow Pipeline ==> 
+				
+				- Data Validation --> Process Data --> Train -> Upload *.pkl to S3 -> Deploy to K8s
+				
+					--> Manifest file *.yaml
+					
+					--> Manifest files *.yaml --> Should be upload to Kubeflow dashboard for deployment
+					
+
+	Kubeflow can be executed on Kubernetes Master/Cluster.
+		
+		
+		
+		
